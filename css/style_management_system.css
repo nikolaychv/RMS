@@ -1,0 +1,326 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.bar {
+  position: fixed;
+  z-index: 1;
+  background: #132639;
+  width: 20%;
+  padding: 32px 0px;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: #ffffff;
+  height: 100%;
+}
+
+.bar a {
+  display: block;
+  color: #ffffff;
+}
+
+.bar h2{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bar ul li{
+  border-bottom: 2px solid #8c87a8;
+  border-top: 2px solid rgba(255,255,255,0.07);
+  border-bottom: 2px solid rgba(0,0,0,0.07);
+  padding: 16px;
+}
+
+.bar ul li:hover{
+  background-color: #264d73;
+  color: #f1f1f1;
+}
+
+.bar a:hover {
+  color: #f1f1f1;
+}
+
+.content {
+  margin-left: 19%;
+  font-size: 28px;
+}
+
+.content h4 {
+    padding: 2.45%;
+    width: 100%;
+    background: #132639;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content .tables-content {
+    margin-left: 20%;
+}
+
+.crud-content {
+  overflow: hidden;
+  margin: 30px 0;
+  font-size: 19px;
+  border-collapse: collapse;
+  margin-left: 4.2%;
+}
+
+.crud-content table {
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.crud-content th, 
+.crud-content td {
+  padding: 11px 14px;
+}
+
+.crud-content thead tr {
+  color: #ffffff;
+  background-color: #204060;
+}
+
+.crud-content tbody tr {
+  border-left: 2px solid #204060;
+  border-right: 2px solid #204060;
+  border-bottom: 2px solid #204060;
+}
+
+#edit-image, #delete-image, #go-back-image, #bill-image {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+#go-back-billing {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    margin-bottom: -16px;
+}
+
+.net-amount-sum {
+    background: #ADD8E6;
+    margin: 15px;
+    font-size: 25px;
+    display: inline-block;
+    padding: 17px 34px;
+    margin-bottom: 3px;
+}
+
+.add-button-div, .sum-bill {
+    text-align: center;
+}
+
+.add-button {
+  background-color: #006400; 
+  color: #ffffff;
+  display: inline-block;
+  margin: 13px;
+  cursor: pointer;
+  border: 1px solid #132639;
+  font-size: 19px;
+  padding: 17px 34px;
+}
+
+.add-button:hover {
+  background-color: #ffffff;
+  border: 2px solid #006400;
+  color: #006400;
+}
+
+.pagination-bar {
+    text-align: center;
+}
+
+.pagination-list {
+    display: inline-block;
+    color: black;
+    padding: 7px 15px;
+    border: 2px solid black;
+    margin-bottom: 22px;
+}
+
+.pagination-list:hover {
+    background: black;
+    color: #ffffff;
+}
+
+.add-content, .edit-content {
+        background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#table-content, #category-content {
+    margin-bottom: 30px;
+}
+
+#restaurant-content, #foods-content {
+    font-size: 15px;
+}
+
+#foods-content {
+    margin-bottom: 17px;
+}
+
+#order-content {
+    margin-left: 36px;
+}
+
+form {
+	width: 800px;
+	border: 3px solid #ffffff;
+	padding: 29px;
+	background: #f1f1f1;
+        border-radius: 3%;
+        margin: 4%;
+        margin-bottom: 12%;
+}
+
+#restaurant-form {
+        margin: 3%;
+        margin-bottom: 8%;
+}
+
+#first-column, #second-column {
+    display: inline-block;
+    width: 45%;
+}
+
+#first-column {
+    margin-left: 2%;
+}
+
+#second-column {
+    margin-left: 4%;
+}
+
+select {
+    font-size: 19px;
+    margin: 3% 0;
+}
+
+#type-and-status {
+    margin-bottom: 8%;
+    margin-left: 9%;
+}
+
+#type-label, #status-label, 
+#is-booked-label, #table-status-label, 
+#is-vegetarian-label {
+    padding: 15px;
+    font-size: 20px;
+}
+
+input {      
+        border-radius: 6px;
+        padding: 12px;
+	border: 3px solid #bfbfbf;
+	width: 94%;
+	margin: 11px auto;
+        display: block;
+}
+
+label {
+	font-size: 19px;
+        color: #8c8c8c;
+        padding: 12px;
+}
+
+#order-label {
+    font-size: 31px;
+}
+
+#food-price-label {
+    display: block;
+}
+
+#order-table {
+    margin-bottom: 50px;
+    font-size: 31px;
+}
+
+#food-table-category {
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+#food-category-table {
+    margin-right: 28px;
+}
+
+#bill-food-name {
+    display: block;
+}
+
+#go-back-image {
+    margin-left: 4%;
+}
+
+button:hover{
+	opacity: 0.6;
+}
+
+#submit-button {
+        display: block;
+        cursor: pointer;
+	padding: 11px 16px;
+	color: #f2f2f2;
+	margin-right: 11px;
+	border: 1px solid #fff;
+        background:  #0086b3;
+        width: 32%;
+        border-radius: 2%;
+        float: right;
+}
+
+#change-password {
+    font-size: 15px;
+    margin-left: 28px;
+}
+
+#error {
+   font-size: 17px;
+   border-radius: 6px;
+   color: #a54240;
+   width: 96%;
+   margin: -6px auto 20px auto;
+   padding: 11px;
+   background: #f0dbdb;
+}
+
+.success {
+   font-size: 17px;
+   border-radius: 6px;
+   background: #c9e8d0;
+   color: #488456;
+   padding: 11px;
+   margin: -6px auto 20px auto;
+   width: 96%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 82%;   
+    height: 60px;
+    margin: 20px 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 17px;
+    background: #132639;
+    color: #ffffff;
+    padding: 3%;
+}

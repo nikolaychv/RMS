@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+        height: 734px;
+	background: #132639;
+	align-items: center;
+	flex-direction: column;
+        display: flex;
+        justify-content: center;
+}
+
+#form-title, #login-title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form {
+        padding: 29px;
+	background: #ffffff;
+        border-radius: 3%;
+        width: 600px;
+        margin: 5%;
+        border: 3px solid #ffffff;
+}
+
+label {
+	font-size: 19px;
+        color: #8c8c8c;
+        padding: 12px;
+}
+
+input {
+        border-radius: 6px;
+        padding: 12px;
+	border: 3px solid #bfbfbf;
+	width: 94%;
+	margin: 11px auto;
+        display: block;
+}
+
+button:hover{
+	opacity: 0.6;
+}
+
+button {
+        cursor: pointer;
+	padding: 11px 16px;
+	color: #f2f2f2;
+	margin-right: 11px;
+	border: 1px solid #fff;
+        background:  #0086b3;
+        width: 32%;
+        border-radius: 2%;
+        float: right;
+}
+
+#error {
+   border-radius: 6px;
+   color: #a54240;
+   width: 96%;
+   margin: -6px auto 20px auto;
+   padding: 11px;
+   background: #f0dbdb;
+}
+
+.success {
+   border-radius: 6px;
+   background: #c9e8d0;
+   color: #488456;
+   padding: 11px;
+   margin: -6px auto 20px auto;
+   width: 96%;
+}
+
+#sign-up-title {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#sign-up-button, #log-in-button {
+    margin-left: 3%;
+}
+
+.sign-up-options {
+    margin-bottom: 30px;
+}
+
+#version {
+    color: #808080;
+    font-size: 14px;    
+}
+
+.footer-content {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 16px;
+    background: #132639;
+    color: #ffffff;
+    padding: 3%;
+}
